@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+*{
+    padding:0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: medium;
+    margin:0;
+    box-sizing: border-box;
+}
+main{
+    margin-top: 12rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+}
+gambar{
+    display:flex;
+    justify-content: center;
+}
+button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 2px solid #212121;
+    margin: 2rem 1rem 0 1rem;
+    transition: all 0.4s ease;
+}
+button:hover{
+    border:none;
+    background-color: #212121;
+    box-shadow: 2px 2px #212121 20%;
+    color: #fff;
+}
+
+#groupTulisan{
+    font-size: 2rem;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+}
+.button{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
